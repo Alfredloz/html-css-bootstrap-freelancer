@@ -26,15 +26,17 @@
       <div class="bg_jumbogreen">
         <div class="container">
           <div class="jumbotron bg_jumbogreen">
-            <h1>Jumbotron heading</h1>
+            <h1 class="text-center">Start Bootstrap</h1>
             <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
           </div>
         </div>
       </div>
-    </header>
       <!-- /jumbotron -->
-    </div>
+    </header>
+    <!-- /header -->
+    <!-- main -->
+    <main>
+      <!-- col image -->
       <section class="container">
         <div class="row marketing">
           <div class="col-md-6 col-lg-4 ">
@@ -53,8 +55,6 @@
               Maecenas faucibus mollis interdum.
             </p>
           </div>
-        </div>
-        <div class="row marketing">
           <div class="col-md-6 col-lg-4">
             <h4>Subheading 1</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
@@ -72,68 +72,79 @@
             </p>
           </div>
         </div>
+        <!-- /col images -->
       </section>
-      <div class="bg_jumbogreen">
-        <div class="container">
-          <div class="col-lg-12">
-            <h2>TESTO GRANDE</h2>
-          </div>
-          <div class="col-lg-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quam, soluta maiores perferendis laborum nostrum laudantium debitis modi facilis aliquid.</p>
-          </div>
-          <div class="col-lg-6">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem minima, recusandae, amet assumenda dicta expedita est corporis excepturi doloremque consequatur.
-            </p>
-          </div>
-          <div class="col-lg-12">
-            bottom
-          </div>
-        </div>
-      </div>
-      <section class="container">
-        <div class="col-lg-12">
-          <h2>Contact Me</h2>
-        </div>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </section>
-      <footer class="footer">
-        <div class="bg_nav_footer">
+        <div class="bg_jumbogreen">
           <div class="container">
-            <div class="col-lg-4">
-              <h4>Testo footer</h4>
-              <p>lorem10</p>
+            <div class="col-lg-12">
+              <h2 class="text-center">TESTO GRANDE</h2>
             </div>
-            <div class="col-lg-4">
-              <h4>Testo footer</h4>
-              <p>Lorem ipsum dolor sit amet.</p>
+            <div class="col-md-12 col-lg-6">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quam, soluta maiores perferendis laborum nostrum laudantium debitis modi facilis aliquid.</p>
             </div>
-            <div class="col-lg-4">
-              <h4>Testo footer</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo ad ipsum?
+            <div class="col-md-12 col-lg-6">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem minima, recusandae, amet assumenda dicta expedita est corporis excepturi doloremque consequatur.
               </p>
             </div>
+            <div class="col-md-12 col-lg-12">
+              bottom
+            </div>
           </div>
         </div>
-        <div class="bg_nav">
-          <p>&copy; 2020 Boolean.Careers.</p>
+        <section class="container">
+          <div class="col-lg-12">
+            <h2 class="text-center">Contact Me</h2>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="inputname">Nome e Cognome</label>
+              <input type="text" id="inputname" class="form-text form-control" name="Nome" value="">
+            </div>
+            <div class="form-group">
+              <label for="inputemail">Indirizzo E-mail</label>
+              <input type="email" class="form-control" id="inputemail" aria-describedby="emailHelp">
+              <small id="emailHelp" class="form-text text-muted">Non condivideremo la tua e-mail con nessun altro.</small>
+            </div>
+            <div class="form-group">
+              <label for="phonenumber">Numero di telefono</label>
+              <input type="text" id="phonenumber" class="form-text form-control" name="Nome" value="">
+            </div>
+            <div class="form-group">
+              <label for="message-area">Messaggio</label>
+              <textarea class="form-text form-control" id="message-area" name="areamessaggio" rows="4" cols="50">
+              </textarea>
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Ho compreso le leggi sulla privacy</label>
+            </div>
+            <button type="submit" class="btn btn-primary">invia</button>
+          </form>
+        </section>
+    </main>
+    <footer class="footer">
+      <div class="bg_nav_footer">
+        <div class="container">
+          <div class="col-lg-4">
+            <h4>Testo footer</h4>
+            <p>lorem10</p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Testo footer</h4>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-lg-4">
+            <h4>Testo footer</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo ad ipsum?
+            </p>
+          </div>
         </div>
-      </footer>
+      </div>
+      <div class="bg_nav">
+        <p>&copy; 2020 Boolean.Careers.</p>
+      </div>
+    </footer>
 
   </body>
 </html>
