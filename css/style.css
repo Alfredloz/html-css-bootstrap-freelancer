@@ -2,3 +2,24 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.bg_nav {
+  background-color: #2C3E50;
+  width: 100%;
+}
+.bg_jumbogreen {
+  background-color: #1ABC9C;
+  width: 100%;
+}
+footer {
+  color: white;
+}
+ footer p:last-child {
+   text-align: center;
+ }
+form {
+  padding: 20px 0;
+}
+.bg_nav_footer {
+  background-color: #3A546D;
+  width: 100%;
+}

@@ -9,36 +9,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   </head>
   <body>
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">About</a></li>
-            <li role="presentation"><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Project name</h3>
+    <header>
+      <div class="bg_nav">
+        <div class="container clearfix">
+          <nav>
+            <ul class="nav nav-pills pull-right">
+              <li role="presentation" class="active"><a href="#">Home</a></li>
+              <li role="presentation"><a href="#">About</a></li>
+              <li role="presentation"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <h3 class="text-muted">Project name</h3>
+        </div>
       </div>
-
-      <div class="jumbotron">
-        <h1>Jumbotron heading</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+      <!-- jumbotron  -->
+      <div class="bg_jumbogreen">
+        <div class="container">
+          <div class="jumbotron bg_jumbogreen">
+            <h1>Jumbotron heading</h1>
+            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+          </div>
+        </div>
       </div>
-      <div class="container">
+    </header>
+      <!-- /jumbotron -->
+    </div>
+      <section class="container">
         <div class="row marketing">
-          <div class="col-lg-4 col-md-6">
+          <div class="col-md-6 col-lg-4 ">
             <h4>Subheading 1</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-md-6 col-lg-4 ">
             <h4>Subheading 2</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-lg-4 col-md-offset-0">
+          <div class="col-md-6 col-lg-4">
             <h4>Subheading 3</h4>
             <p>Donec id elit non mi porta gravida at eget metus.
               Maecenas faucibus mollis interdum.
@@ -46,41 +55,43 @@
           </div>
         </div>
         <div class="row marketing">
-          <div class="col-lg-4 col-md-6">
+          <div class="col-md-6 col-lg-4">
             <h4>Subheading 1</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <h4>Subheading 2</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-lg-4 col-md-6">
+          <div class="col-md-6 col-lg-4">
             <h4>Subheading 3</h4>
             <p>Donec id elit non mi porta gravida at eget metus.
               Maecenas faucibus mollis interdum.
             </p>
           </div>
         </div>
+      </section>
+      <div class="bg_jumbogreen">
+        <div class="container">
+          <div class="col-lg-12">
+            <h2>TESTO GRANDE</h2>
+          </div>
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quam, soluta maiores perferendis laborum nostrum laudantium debitis modi facilis aliquid.</p>
+          </div>
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem minima, recusandae, amet assumenda dicta expedita est corporis excepturi doloremque consequatur.
+            </p>
+          </div>
+          <div class="col-lg-12">
+            bottom
+          </div>
+        </div>
       </div>
-      <div class="container">
-        <div class="col-lg-12">
-          <h2>TESTO GRANDE</h2>
-        </div>
-        <div class="col-lg-6">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quam, soluta maiores perferendis laborum nostrum laudantium debitis modi facilis aliquid.</p>
-        </div>
-        <div class="col-lg-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem minima, recusandae, amet assumenda dicta expedita est corporis excepturi doloremque consequatur.
-          </p>
-        </div>
-        <div class="col-lg-12">
-          bottom
-        </div>
-      </div>
-      <div class="container">
+      <section class="container">
         <div class="col-lg-12">
           <h2>Contact Me</h2>
         </div>
@@ -100,26 +111,29 @@
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-      </div>
+      </section>
       <footer class="footer">
-        <div class="container">
-          <div class="col-lg-4">
-            <h4>Testo footer</h4>
-            <p>lorem10</p>
-          </div>
-          <div class="col-lg-4">
-            <h4>Testo footer</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="col-lg-4">
-            <h4>Testo footer</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo ad ipsum?
-            </p>
+        <div class="bg_nav_footer">
+          <div class="container">
+            <div class="col-lg-4">
+              <h4>Testo footer</h4>
+              <p>lorem10</p>
+            </div>
+            <div class="col-lg-4">
+              <h4>Testo footer</h4>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div class="col-lg-4">
+              <h4>Testo footer</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam illo ad ipsum?
+              </p>
+            </div>
           </div>
         </div>
-        <p>&copy; 2016 Company, Inc.</p>
+        <div class="bg_nav">
+          <p>&copy; 2020 Boolean.Careers.</p>
+        </div>
       </footer>
 
-    </div>
   </body>
 </html>
