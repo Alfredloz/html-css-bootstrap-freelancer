@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/8c8c016c3d.js" crossorigin="anonymous"></script>
     <title>START BOOTSTRAP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
   </head>
   <body>
     <header>
+        <!-- NOTE cercare di posizionare la class navbar-fixed-top nel posto giusto. Aspetto immagini per capire dove farlo -->
       <div class="bg_nav">
         <div class="container clearfix">
           <nav>
             <ul class="nav nav-pills pull-right">
-              <li role="presentation" class="active"><a href="#">Home</a></li>
+              <li role="presentation"><a href="#">Home</a></li>
               <li role="presentation"><a href="#">About</a></li>
               <li role="presentation"><a href="#">Contact</a></li>
             </ul>
           </nav>
-          <h3 class="text-muted">Project name</h3>
+          <h3 class="text-muted">Start Bootstrap</h3>
         </div>
       </div>
       <!-- jumbotron  -->
@@ -27,7 +30,14 @@
         <div class="container">
           <div class="jumbotron bg_jumbogreen">
             <h1 class="text-center">Start Bootstrap</h1>
-            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            <p class="lead text-center">graphic artist - web designer -illustrator</p>
           </div>
         </div>
       </div>
@@ -39,33 +49,34 @@
       <!-- col image -->
       <section class="container">
         <div class="row marketing">
-          <div class="col-md-6 col-lg-4 ">
+          <h1 class="text-center">Portfolio</h1>
+          <div class="col-sm-12 col-md-6 col-lg-4 ">
             <h4>Subheading 1</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-md-6 col-lg-4 ">
+          <div class="col-sm-12 col-md-6 col-lg-4 ">
             <h4>Subheading 2</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <h4>Subheading 3</h4>
             <p>Donec id elit non mi porta gravida at eget metus.
               Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <h4>Subheading 1</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <h4>Subheading 2</h4>
             <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.
             </p>
           </div>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-6 col-lg-4">
             <h4>Subheading 3</h4>
             <p>Donec id elit non mi porta gravida at eget metus.
               Maecenas faucibus mollis interdum.
@@ -77,7 +88,14 @@
         <div class="bg_jumbogreen">
           <div class="container">
             <div class="col-lg-12">
-              <h2 class="text-center">TESTO GRANDE</h2>
+              <h2 class="text-center">about</h2>
+              <div class="divider-custom">
+                      <div class="divider-custom-line"></div>
+                      <div class="divider-custom-icon">
+                      <i class="fas fa-star"></i>
+                      </div>
+                      <div class="divider-custom-line"></div>
+                  </div>
             </div>
             <div class="col-md-12 col-lg-6">
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quam, soluta maiores perferendis laborum nostrum laudantium debitis modi facilis aliquid.</p>
@@ -88,13 +106,20 @@
               </p>
             </div>
             <div class="col-md-12 col-lg-12">
-              bottom
+              <span class="btn">Download</span>
             </div>
           </div>
         </div>
         <section class="container">
           <div class="col-lg-12">
             <h2 class="text-center">Contact Me</h2>
+            <div class="divider-custom black_line">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="divider-custom-line"></div>
+                </div>
           </div>
           <form>
             <div class="form-group">
@@ -125,7 +150,7 @@
     </main>
     <footer class="footer">
       <div class="bg_nav_footer">
-        <div class="container">
+        <div class="container text-center">
           <div class="col-lg-4">
             <h4>Testo footer</h4>
             <p>lorem10</p>

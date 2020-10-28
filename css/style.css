@@ -1,6 +1,35 @@
+/* GENERAL settings body */
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+}
+/* //general settings body */
+/* class utility */
+/*  star divider */
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divider-custom i {
+  font-size: 5rem;
+}
+.divider-custom .divider-custom-line {
+    width: 100%;
+    max-width: 20rem;
+    height: 0.25rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+}
+.divider-custom div:first-child {
+  margin-right: 3rem;
+}
+.divider-custom div:last-child {
+  margin-left: 3rem;
+  /* /star divider */
 }
 .bg_nav {
   background-color: #2C3E50;
@@ -10,15 +39,56 @@ body {
   background-color: #1ABC9C;
   width: 100%;
 }
+.bg_jumbogreen {
+    color: white;
+}
+/* /class utility */
+/* nav bar */
+.bg_nav h3 {
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.nav > li {
+  padding: 20px;
+}
+.nav > li > a {
+  color: white;
+}
+.nav > li > a:hover{
+  color: white;
+  background-color: #1ABC9C;
+}
+/* / nav bar */
+/* jumbotron */
+.jumbotron h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.jumbotron p {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+/* about section */
+.bg_jumbogreen  h2 {
+  text-transform: uppercase;
+  padding-top: 5rem;
+  font-size: 5rem;
+}
+/* /about section */
+/* contact form */
+.divider-custom.black_line .divider-custom-line {
+  background-color: black;
+}
+/* footer */
 footer {
   color: white;
 }
  footer p:last-child {
    text-align: center;
  }
-form {
-  padding: 20px 0;
-}
 .bg_nav_footer {
   background-color: #3A546D;
   width: 100%;
