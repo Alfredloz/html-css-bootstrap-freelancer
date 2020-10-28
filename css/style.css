@@ -54,7 +54,7 @@ body {
   text-transform: uppercase;
 }
 .nav > li {
-  padding: 2rem;
+  padding: 1rem;
 }
 .nav > li > a {
   color: white;
