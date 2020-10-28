@@ -42,6 +42,9 @@ body {
 .bg_jumbogreen {
   color: white;
 }
+.btn {
+  background-color: #1ABC9C;
+}
 /* /class utility */
 /* nav bar */
 .bg_nav h3 {
@@ -51,7 +54,7 @@ body {
   text-transform: uppercase;
 }
 .nav > li {
-  padding: 20px;
+  padding: 2rem;
 }
 .nav > li > a {
   color: white;
@@ -62,6 +65,11 @@ body {
 }
 /* / nav bar */
 /* jumbotron */
+
+.jumbotron img {
+  margin-top: 10rem;
+  max-height: 40rem;
+}
 .jumbotron h1 {
   text-transform: uppercase;
   font-weight: bolder;
@@ -79,16 +87,14 @@ body {
 .marketing {
   padding: 4.5rem 0;
 }
-.marketing [class*="col-"] {
-  padding: 1rem;
-}
 .marketing img {
   display: block;
   width: 100%;
   height: auto;
+  padding: 0;
 }
 .card {
-  padding: 1rem;
+  padding: 2rem;
 }
 .overlay {
   position: absolute;
@@ -120,20 +126,82 @@ body {
   padding-top: 5rem;
   font-size: 5rem;
 }
+.btn_box {
+  position: relative;
+  padding: 3rem 0;
+}
+.btn_download {
+  position: relative;
+  display: inline-block;
+  border: 1px solid white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.btn_download:hover {
+  background-color: white;
+  color: #1ABC9C;
+}
+.fa-download {
+  padding: 0.5rem;
+}
 /* /about section */
 /* contact form */
 .divider-custom.black_line .divider-custom-line {
   background-color: black;
 }
+.form-group textarea, #inputname, #inputemail, #phonenumber {
+  font-size: 20px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  border-bottom: 1px solid #c8c8c8;
+  padding: 0;
+}
+.padding-btn {
+  padding-bottom: 3rem;
+}
+/* /contact form */
+/* /main */
 /* footer */
 footer {
   color: white;
 }
- footer p:last-child {
+footer h4 {
+  text-transform: uppercase;
+}
+ footer .bg_nav p {
    text-align: center;
    margin: 0;
+   padding-top: 5rem;
  }
 .bg_nav_footer {
   background-color: #3A546D;
   width: 100%;
 }
+.bootstrap_link {
+  text-decoration: none;
+  color: #1ABC9C;
+}
+.bootstrap_link:hover {
+  color: white;
+  text-decoration: none;
+}
+footer [class*="col-"] {
+  padding: 2rem 0;
+}
+footer .btn {
+  margin: 1.5rem;
+  font-size: 3rem;
+  border: 1px solid white;
+  background-color: inherit;
+  border-radius: 50%;
+}
+footer .btn:hover {
+  background-color: #1ABC9C;
+  color: white;
+}
+.bg_nav_footer p{
+  padding-top: 2rem;
+}
+/* /footer */
