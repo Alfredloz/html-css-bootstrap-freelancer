@@ -53,6 +53,9 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+.icon_bar {
+  display: none;
+}
 .nav > li {
   padding: 1rem;
 }
@@ -205,3 +208,10 @@ footer .btn:hover {
   padding-top: 2rem;
 }
 /* /footer */
+/* WARNING media query */
+@media all and (max-width: 768px) {
+  .icon_bar {
+    display: inline-block;
+    background-color: #1ABC9C;
+  }
+}
