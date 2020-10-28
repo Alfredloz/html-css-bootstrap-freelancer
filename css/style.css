@@ -40,7 +40,7 @@ body {
   width: 100%;
 }
 .bg_jumbogreen {
-    color: white;
+  color: white;
 }
 /* /class utility */
 /* nav bar */
@@ -71,6 +71,49 @@ body {
   font-size: 2.5rem;
   font-weight: bolder;
 }
+/* main sections */
+/* 6 icons sections */
+.marketing img {
+  border-radius: 1.9rem;
+}
+.marketing {
+  padding: 4.5rem 0;
+}
+.marketing [class*="col-"] {
+  padding: 1rem;
+}
+.marketing img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.card {
+  padding: 1rem;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #1ABC9C;
+  border-radius: 1.9rem;
+}
+.plus_icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card:hover .overlay {
+  opacity: 0.9;
+}
 /* about section */
 .bg_jumbogreen  h2 {
   text-transform: uppercase;
@@ -88,6 +131,7 @@ footer {
 }
  footer p:last-child {
    text-align: center;
+   margin: 0;
  }
 .bg_nav_footer {
   background-color: #3A546D;
